@@ -66,11 +66,11 @@ const Hero = () => {
       </h1>
       <Stats ref={statsRef} />
       <img
-        ref={imageRef}
-        src="/car.png"
-        alt="Car Visual"
-        className="absolute bottom-10 w-[350px] md:w-[650px] drop-shadow-2xl will-change-transform"
-      />
+  ref={imageRef}
+  src={`${import.meta.env.BASE_URL}car.png`}
+  alt="Car Visual"
+  className="absolute bottom-[-120px] w-[400px] md:w-[700px] drop-shadow-2xl will-change-transform pointer-events-none"
+/>
     </section>
   )
 }
