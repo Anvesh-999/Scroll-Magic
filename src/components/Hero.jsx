@@ -47,7 +47,7 @@ const Hero = () => {
     return () => ctx.revert()
   }, [])
 
-  const headlineText = "WELCOMELambo";
+  const headlineText = "WELCOMEITZFIZZ";
 
   return (
     <section
